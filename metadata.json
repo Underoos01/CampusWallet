@@ -1,0 +1,6 @@
+{
+  "name": "Teal & Gold Student Fintech",
+  "description": "A refined student personal finance app with campus allowance tracking, peer expense splitting, and budget allocations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

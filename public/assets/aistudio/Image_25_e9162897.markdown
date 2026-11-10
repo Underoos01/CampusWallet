@@ -1,0 +1,225 @@
+---
+name: Teal & Gold Student Fintech
+colors:
+  surface: '#f7f9fb'
+  surface-dim: '#d8dadc'
+  surface-bright: '#f7f9fb'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f6'
+  surface-container: '#eceef0'
+  surface-container-high: '#e6e8ea'
+  surface-container-highest: '#e0e3e5'
+  on-surface: '#191c1e'
+  on-surface-variant: '#3f484a'
+  inverse-surface: '#2d3133'
+  inverse-on-surface: '#eff1f3'
+  outline: '#6f797a'
+  outline-variant: '#bfc8c9'
+  surface-tint: '#20686f'
+  primary: '#004349'
+  on-primary: '#ffffff'
+  primary-container: '#0d5c63'
+  on-primary-container: '#90d2da'
+  inverse-primary: '#8fd1d9'
+  secondary: '#904d00'
+  on-secondary: '#ffffff'
+  secondary-container: '#fe932c'
+  on-secondary-container: '#663500'
+  tertiary: '#00452d'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#005f40'
+  on-tertiary-container: '#4edea3'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#abeef6'
+  primary-fixed-dim: '#8fd1d9'
+  on-primary-fixed: '#002023'
+  on-primary-fixed-variant: '#004f55'
+  secondary-fixed: '#ffdcc3'
+  secondary-fixed-dim: '#ffb77d'
+  on-secondary-fixed: '#2f1500'
+  on-secondary-fixed-variant: '#6e3900'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f7f9fb'
+  on-background: '#191c1e'
+  surface-variant: '#e0e3e5'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  display-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  currency-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.03em
+  currency-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '700'
+    lineHeight: 22px
+    letterSpacing: -0.01em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.25rem
+  space-xl: 1.75rem
+---
+
+## Brand & Style
+The design system establishes a focused, intelligent, and trustworthy environment for students managing personal finances. It bridges consumer fintech sophistication with academic life pragmatism, rejecting loud gamification in favor of calm clarity and financial confidence.
+
+The design philosophy blends Material 3 structural foundations with modern consumer fintech minimalism:
+- **Atmosphere:** Clean, open, and deliberate. Generous vertical breathing room prevents financial anxiety.
+- **Voice:** Direct, encouraging, and transparent. Information density is carefully calibrated so balances, allocations, and spending thresholds are instantly digestible.
+- **Materiality:** Soft surface transitions, subtle structural hairline borders (`#E2E8F0`), and tactile physical feedback mimic modern credit cards and premium passbooks rather than casual arcade interfaces.
+
+## Colors
+The palette uses high-contrast, deeply saturated anchors against cool-tinted resting surfaces to achieve strict WCAG AA contrast compliance across all states.
+
+- **Primary (`#0D5C63`):** Deep academic teal. Serves as the primary brand anchor, dominant action color, top app bar surfaces, and hero metrics. High-contrast white (`#FFFFFF`) is mandatory for text placed atop primary fills.
+- **Secondary (`#D97706`):** Warm burnished gold. Reserved for goal completions, budget alerts, streak counters, and premium feature badges.
+- **Surfaces & Canvas:** 
+  - Canvas Background: `#F8FAFC`
+  - Container / Surface: `#FFFFFF`
+  - Surface High / Modal: `#FFFFFF`
+  - Subtle Border / Divider: `#E2E8F0`
+- **Semantic Financial States:**
+  - **Income / Positive Growth:** Emerald (`#10B981`) paired with soft emerald container (`#ECFDF5`).
+  - **Expense / Outflow:** Coral Red (`#EF4444`) paired with soft red container (`#FEF2F2`).
+  - **Transfer / Neutral Movement:** Slate (`#64748B`) paired with muted slate container (`#F1F5F9`).
+  - **Refund / Reversal:** Violet (`#8B5CF6`) paired with soft violet container (`#F5F3FF`).
+- **Text & Foreground:**
+  - On-Surface High Emphasis: `#0F172A` (Slate 900)
+  - On-Surface Medium Emphasis: `#475569` (Slate 600)
+  - On-Surface Disabled / Muted: `#94A3B8` (Slate 400)
+
+## Typography
+Plus Jakarta Sans provides geometric modernity, open counters, and high legibility at dense mobile viewports.
+
+- **Indian Rupee Formatting:** All currency strings must strictly enable OpenType tabular figures (`font-variant-numeric: tabular-nums; font-feature-settings: "tnum" on;`) to ensure absolute alignment down financial columns.
+- **Numeral Grouping:** Adhere strictly to the Indian numbering system: two-digit clusterings after the initial thousand (e.g., `₹1,23,456.50`). The rupee symbol (`₹`) is rendered at medium weight to prevent optical clumping against bold numeric values.
+- **Hierarchy Rules:** Hero balances use `currency-hero`. Card metrics and transaction row amounts utilize `currency-md`. Secondary notes and ledger timestamps never exceed `body-sm`.
+
+## Layout & Spacing
+Designed explicitly for modern mobile aspect ratios (targeting a baseline canvas of 390x844pt):
+
+- **Grid System:** Mobile-first single-column structural layout backed by a 4-column sub-grid with a persistent `16px` (`margin`) outer edge cushion and `16px` (`gutter`) inter-card gap.
+- **Rhythm & Flow:** All vertical margins strictly follow an 8-point baseline scale. Related form fields and list metadata group via `space-xs` (4px) or `space-sm` (8px). Structural cards and content sections separate via `space-md` (16px) or `space-lg` (20px).
+- **Safe Area Insets:** Fixed bottom action buttons and bottom navigation bars must include additional padding matching the Android navigation rail / gesture bar (`env(safe-area-inset-bottom) + 16px`).
+
+## Elevation & Depth
+Depth in this system combines flat M3 structural cards with ambient, low-opacity tinted shadows and crisp hairline borders:
+
+- **Surface Base (Level 0):** Canvas `#F8FAFC` carries zero elevation.
+- **Card Default (Level 1):** White `#FFFFFF` card containers feature a 1px continuous hairline outline using `#E2E8F0` layered over a subtle ambient drop shadow: `0px 2px 8px -2px rgba(13, 92, 99, 0.04), 0px 1px 3px 0px rgba(15, 23, 42, 0.05)`.
+- **Raised Interactive Cards / Dropdowns (Level 2):** Quick action tiles, active wallet switches, and bottom sheets use: `0px 8px 16px -4px rgba(13, 92, 99, 0.08), 0px 2px 6px -1px rgba(15, 23, 42, 0.04)`.
+- **Modals & Overlays (Level 3):** Bottom-anchored transaction draw sheets use: `0px 20px 28px -6px rgba(15, 23, 42, 0.16)`.
+
+## Shapes
+A unified 20px card radius anchors the mobile surface architecture:
+
+- **Master Containers & Cards:** Strictly `20px` (`rounded-xl` equivalent). This includes balance review cards, budget summary decks, and onboarding carousel items.
+- **Interactive Inputs & Action Buttons:** `12px` to `16px` radius for text fields and primary CTA buttons, ensuring a stable, tactile target.
+- **Badges, Tags, and Pill Chips:** Fully rounded (`9999px` / capsule shape) to clearly distinguish metadata from clickable square/rectangular surfaces.
+- **Touch Target Safeguards:** Regardless of shape rounding, every clickable touch target must maintain a minimum bounding box of 48x48dp.
+
+## Components
+
+### Buttons
+- **Primary Elevated CTA:** Background `#0D5C63`, text `#FFFFFF`, height `52px`, radius `14px`, `label-lg` font. Subtle ambient teal elevation on rest, transforms to `#094045` on active press.
+- **Secondary / Outlined:** Background `transparent`, border `1.5px solid #0D5C63`, text `#0D5C63`, height `52px`, radius `14px`.
+- **Text Action:** Background `transparent`, text `#0D5C63`, 0px elevation.
+
+### Financial Cards & Balance Decks
+- **Hero Wallet Card:** Radius `20px`, padding `20px`. Background is either a high-contrast Teal-to-Slate subtle linear gradient (`#0D5C63` to `#083B40`) with white text, or clean `#FFFFFF` with a 1px border of `#E2E8F0`. Always features currency figures rendered in `currency-hero`.
+- **Wallet Setup / Balance Allocation Card:** Outer stroke `1.5px solid #E2E8F0`, padding `16px`, containing dual-action micro-inputs for opening balances, category icon badges, and currency input labels.
+
+### Transaction Row Items
+- **Layout:** Horizontal alignment, `height: 64px`, padding `12px 16px`.
+- **Leading Element:** Category icon container (`40x40px`, radius `12px`) tinted using semantic background variants (e.g., Emerald `#ECFDF5` for income, Coral `#FEF2F2` for expenses).
+- **Center:** Title (`label-lg`, `#0F172A`) over date/time category info (`body-sm`, `#64748B`).
+- **Trailing:** Tabular figure amount (`currency-md`). Preceded by `+` in `#10B981` for credits, or `-` in `#0F172A` for debits.
+
+### Badges & Pill Chips
+- **Status Chips:** Height `26px`, padding `0 10px`, radius `9999px`.
+- **Expense Pill:** Background `#FEF2F2`, border `1px solid rgba(239, 68, 68, 0.2)`, text `#EF4444` (`label-sm`).
+- **Income Pill:** Background `#ECFDF5`, border `1px solid rgba(16, 185, 129, 0.2)`, text `#10B981` (`label-sm`).
+- **Alert / Over-budget Pill:** Background `#FFFBEB`, border `1px solid rgba(217, 119, 6, 0.2)`, text `#D97706` (`label-sm`).
+
+### Input Fields
+- **Container:** Height `54px`, radius `12px`, background `#FFFFFF`, border `1px solid #CBD5E1`.
+- **Focus State:** Border expands to `2px solid #0D5C63`, box-shadow `0 0 0 3px rgba(13, 92, 99, 0.12)`.
+- **Currency Field Prefix:** Static Indian Rupee (`₹`) pinned inside the leading edge, rendered in `#475569`, tracking alongside tabular numerical entry.
+
+### Progress Indicators
+- **Linear Budget Bar:** Height `8px`, track color `#E2E8F0`, border radius `4px`. Active bar filled with `#0D5C63` (or switches to `#EF4444` if allocation exceeds 90%).
+- **Onboarding Carousel Indicator:** Active dot is elongated (`24px x 6px`, radius `3px`, `#0D5C63`), inactive dots are circular (`6px x 6px`, radius `3px`, `#CBD5E1`).

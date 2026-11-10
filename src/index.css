@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Custom shadows from the design spec */
+.shadow-card-subtle {
+  box-shadow: 0px 2px 8px -2px rgba(13, 92, 99, 0.04), 0px 1px 3px 0px rgba(15, 23, 42, 0.05);
+}
+
+.shadow-card-raised {
+  box-shadow: 0px 8px 16px -4px rgba(13, 92, 99, 0.08), 0px 2px 6px -1px rgba(15, 23, 42, 0.04);
+}
+
+.shadow-card-sheet {
+  box-shadow: 0px 20px 28px -6px rgba(15, 23, 42, 0.16);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
